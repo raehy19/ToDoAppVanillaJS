@@ -1,0 +1,55 @@
+.clock-weather {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 720px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  padding: 4px 16px;
+}
+
+#clock {
+  margin-top: 10px;
+}
+#ymdd {
+  font-size: 32px;
+}
+#hms {
+  font-size: 92px;
+}
+
+#weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#weather div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#temp {
+  font-size: 48px;
+}
+
+#description {
+  font-size: 24px;
+  margin-left: 12px;
+}
+
+#temp-max-min {
+  font-size: 24px;
+  margin-left: 40px;
+}
+
+#city {
+  font-size: 20px;
+  margin: 10px 0px;
+}

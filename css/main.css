@@ -1,0 +1,23 @@
+body {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#bgimg {
+  object-position: center;
+  object-fit: cover;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
