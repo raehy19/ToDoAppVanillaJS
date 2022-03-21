@@ -2,18 +2,19 @@
   position: absolute;
   left: 40px;
   bottom: 40px;
-  width: 720px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 20px;
-  padding: 4px 16px;
+  padding: 8px 24px;
 }
 
 #clock {
   margin-top: 10px;
+  margin-right: 12px;
 }
 #ymdd {
   font-size: 32px;
@@ -37,6 +38,7 @@
 
 #temp {
   font-size: 48px;
+  margin-left: 4px;
 }
 
 #description {
@@ -46,7 +48,7 @@
 
 #temp-max-min {
   font-size: 24px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 #city {
